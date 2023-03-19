@@ -1,13 +1,8 @@
 ﻿## Interface: 30300
-## Notes: Wowhead Data dump for GatherMate 
-## Notes-zhTW: Wowhead 資料轉存至採集助手 GatherMate
-## Notes-zhCN: Wowhead 资料转存至采集助手 GatherMate
-## Title: GatherMateData
-## Title-zhTW: GatherMateData 採集助手資料庫
-## Title-zhCN: GatherMateData 采集助手数据库
-## Author: kagaro, Xinhuan, Ammo (review and sounding board)
+## Notes: Rising-Gods DB Data dump for GatherMate by Telkar
+## Title: GatherMate Data (Telkar@RG)
+## Author: kagaro, Xinhuan, Ammo (review and sounding board), Telkar@RG (updated)
 ## X-Category: Map
-## X-Email: sal.scotto@gmail.com
 ## Version: 1.0
 ## LoadOnDemand: 1
 ## X-Generated-Version: $Revision: 274 $
