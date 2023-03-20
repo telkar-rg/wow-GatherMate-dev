@@ -1,0 +1,49 @@
+## Title: GatherTogether
+## X-Curse-Packaged-Version: r0.5.1
+## X-Curse-Project-Name: GatherTogether
+## X-Curse-Project-ID: gather-together
+## X-Curse-Repository-ID: wow/gather-together/mainline
+
+## Notes: Gathering database bridging module for GatherMate and Gatherer
+
+## Author: LokiCoyote
+## X-Author-Faction: Horde
+## X-Author-Server: Stormreaver
+
+## Interface: 30000
+## Version: r0.5.1
+## X-Date: 2008-12-23T21:30:08Z
+
+## X-Credits: kagaro, Xinhuan
+
+## X-Category: Map
+## X-Localizations: enUS
+## X-Website:
+## X-Feedback:
+
+## OptionalDeps: Ace3, GatherMate, Gatherer
+
+## SavedVariables: GatherTogetherDB
+
+LibStub.lua
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Locales\Locales.xml
+
+Core.lua
+
+# Constant tables
+Nodes.lua
+Zones.lua
+
+Utils\Utils.xml
+
+Bridge.lua
+Bridges\Bridges.xml
+
+Support.lua
+
+Modules\Modules.xml

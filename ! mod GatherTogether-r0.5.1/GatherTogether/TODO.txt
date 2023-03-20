@@ -1,0 +1,4 @@
+Register new node types
+Create option pages for Supports
+Enable receive before send for bridges
+Allow modules to signal they don't need initialization information

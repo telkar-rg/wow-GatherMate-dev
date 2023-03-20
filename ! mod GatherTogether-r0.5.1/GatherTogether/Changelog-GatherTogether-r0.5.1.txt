@@ -1,0 +1,627 @@
+------------------------------------------------------------------------
+r67 | lokicoyote | 2008-12-23 21:33:03 +0000 (Tue, 23 Dec 2008) | 2 lines
+Changed paths:
+   A /tags/r0.5.1 (from /trunk:66)
+
+Tagging as r0.5.1
+A number of bug fixes
+------------------------------------------------------------------------
+r66 | lokicoyote | 2008-12-23 21:30:08 +0000 (Tue, 23 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Support.lua
+
+Clear the options when a new module is added
+
+------------------------------------------------------------------------
+r65 | lokicoyote | 2008-12-23 21:29:51 +0000 (Tue, 23 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Bridge.lua
+
+Clear the options when a new module is registered
+Test whether self.module_list is nil or not before trying to concatenate it
+
+------------------------------------------------------------------------
+r64 | lokicoyote | 2008-12-23 20:41:26 +0000 (Tue, 23 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+   M /trunk/Supports/MetaMap/Core.lua
+
+Move decoding functions closer to use (no real change)
+
+------------------------------------------------------------------------
+r63 | lokicoyote | 2008-12-23 12:13:04 +0000 (Tue, 23 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Bridges/Gatherer.lua
+
+Define an actual accepting variable
+
+------------------------------------------------------------------------
+r62 | lokicoyote | 2008-12-23 11:41:16 +0000 (Tue, 23 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+
+Don't cause an error if GatherMate_Sharing isn't available.
+
+------------------------------------------------------------------------
+r61 | lokicoyote | 2008-12-23 11:40:40 +0000 (Tue, 23 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Bridge.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Support.lua
+
+Change the string of the popup message in the locale definition
+RegisterCallbacks and UnregisterAllCallbacks isn't available immediately, move to delay loaded.
+
+------------------------------------------------------------------------
+r60 | lokicoyote | 2008-12-22 20:02:21 +0000 (Mon, 22 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Bridge.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Support.lua
+
+Expanded Support options
+Added a description for the top of the option pages
+
+------------------------------------------------------------------------
+r59 | lokicoyote | 2008-12-22 19:52:43 +0000 (Mon, 22 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Make broadcast targets default to ""
+	Should prevent these values from sneaking into the save variables file
+
+------------------------------------------------------------------------
+r58 | lokicoyote | 2008-12-22 19:51:44 +0000 (Mon, 22 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/MetaMap.lua
+
+Fix MetaMap's map information for Eye of the Storm
+
+------------------------------------------------------------------------
+r56 | lokicoyote | 2008-12-21 07:48:26 +0000 (Sun, 21 Dec 2008) | 7 lines
+Changed paths:
+   M /trunk/Bridge.lua
+   M /trunk/Core.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/TODO.txt
+
+Update locale information
+Fix GetModuleConfig calls
+Correct ReigsterCallback typo
+Correct Loadprofile typo
+Fix Bridge Options
+Add bridge:IsDeactivate function
+
+------------------------------------------------------------------------
+r55 | lokicoyote | 2008-12-21 03:48:23 +0000 (Sun, 21 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Nodes.lua
+   M /trunk/Utils/MetaMap.lua
+
+Added Fel Lotus to herbalism
+Fixed a typo in MetaMap zone list
+
+------------------------------------------------------------------------
+r54 | lokicoyote | 2008-12-21 00:03:49 +0000 (Sun, 21 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Bridge.lua
+
+Fixed an error in the Bridge options
+Added a warning if no bridge modules are enabled
+
+------------------------------------------------------------------------
+r53 | lokicoyote | 2008-12-20 23:48:10 +0000 (Sat, 20 Dec 2008) | 4 lines
+Changed paths:
+   M /trunk/Bridge.lua
+   M /trunk/Core.lua
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/Support.lua
+   M /trunk/Supports/GatherMate/Core.lua
+   M /trunk/Supports/Gatherer/Core.lua
+   M /trunk/Supports/MetaMap/Core.lua
+
+Provide an interface for getting to module options cleanly
+Allow Support modules to deactivate bridge modules
+Allow Bridge modules to be disabled 
+
+------------------------------------------------------------------------
+r52 | lokicoyote | 2008-12-20 23:01:39 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Modules/Feedback/Core.lua
+
+Allow Feedback settings to persist through logout
+
+------------------------------------------------------------------------
+r51 | lokicoyote | 2008-12-20 23:01:15 +0000 (Sat, 20 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Support modules to control their own options / defaults
+Register for AceDB events
+
+------------------------------------------------------------------------
+r49 | lokicoyote | 2008-12-20 02:51:52 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/TODO.txt
+
+Update todo list
+
+------------------------------------------------------------------------
+r48 | lokicoyote | 2008-12-20 02:50:49 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/GatherMate.lua
+   M /trunk/Utils/Gatherer.lua
+   M /trunk/Utils/MetaMap.lua
+
+Update cached locals for global functions
+
+------------------------------------------------------------------------
+r47 | lokicoyote | 2008-12-20 02:50:11 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+
+Include AceHook-3.0 for GatherTogether_GatherMateSupport
+
+------------------------------------------------------------------------
+r46 | lokicoyote | 2008-12-20 02:49:26 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+   M /trunk/Supports/Gatherer/Core.lua
+   M /trunk/Supports/MetaMap/Core.lua
+
+Prevent adding nodes to databases that the user gathers
+
+------------------------------------------------------------------------
+r45 | lokicoyote | 2008-12-20 02:19:54 +0000 (Sat, 20 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+   M /trunk/Supports/GatherMate/GatherTogether_GatherMateSupport.toc
+   A /trunk/Supports/GatherMate/Libs
+   A /trunk/Supports/GatherMate/embeds.xml (from /trunk/Supports/MetaMap/embeds.xml:44)
+
+Hook GatherMate_Sharing:OnMessage to track whether a new node is from the Sharing or ourself
+
+------------------------------------------------------------------------
+r44 | lokicoyote | 2008-12-19 21:38:50 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/Utils.xml
+
+Actually load the metamap utilities
+
+------------------------------------------------------------------------
+r43 | lokicoyote | 2008-12-19 08:15:47 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/TODO.txt
+
+Update TODO list
+
+------------------------------------------------------------------------
+r42 | lokicoyote | 2008-12-19 08:14:08 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/GatherMate.lua
+   M /trunk/Utils/Gatherer.lua
+
+Use metatables to simplify some code (provide default values for tables)
+
+------------------------------------------------------------------------
+r41 | lokicoyote | 2008-12-19 08:11:59 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Nodes.lua
+
+Additional Node names from MetaMap
+
+------------------------------------------------------------------------
+r40 | lokicoyote | 2008-12-19 08:11:27 +0000 (Fri, 19 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/Supports/MetaMap
+   A /trunk/Supports/MetaMap/Core.lua (from /trunk/Supports/GatherMate/Core.lua:33)
+   A /trunk/Supports/MetaMap/GatherTogether_MetaMapSupport.toc (from /trunk/Supports/GatherMate/GatherTogether_GatherMateSupport.toc:33)
+   A /trunk/Supports/MetaMap/Libs
+   A /trunk/Supports/MetaMap/embeds.xml (from /trunk/embeds.xml:28)
+   A /trunk/Utils/MetaMap.lua (from /trunk/Utils/GatherMate.lua:28)
+
+Add MetaMap support
+	No bridge because MetaMapTRK doesn't seem to share nodes with anyone (it might be possible to share using MetaMap... ?)
+
+------------------------------------------------------------------------
+r39 | lokicoyote | 2008-12-19 08:07:44 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Ensure that in_source is nil if from ourselves
+
+------------------------------------------------------------------------
+r38 | lokicoyote | 2008-12-19 00:51:01 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+
+Use GatherMate native methods when possible instead of accessing internal data structures
+
+------------------------------------------------------------------------
+r37 | lokicoyote | 2008-12-19 00:49:31 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/GatherMate.lua
+
+Updated for v1.0.10 (older versions should still work)
+
+------------------------------------------------------------------------
+r36 | lokicoyote | 2008-12-19 00:47:49 +0000 (Fri, 19 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Zones.lua
+
+Added EasternKingdoms (from GatherMate) to the zone list
+
+------------------------------------------------------------------------
+r34 | lokicoyote | 2008-12-17 20:42:56 +0000 (Wed, 17 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Cause adds and deletes to invalidate each other in the duplicate checking code.
+
+------------------------------------------------------------------------
+r33 | lokicoyote | 2008-12-17 20:22:11 +0000 (Wed, 17 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/GatherMate/Core.lua
+   M /trunk/Supports/GatherMate/GatherTogether_GatherMateSupport.toc
+   M /trunk/Supports/Gatherer/Core.lua
+   M /trunk/Supports/Gatherer/GatherTogether_GathererSupport.toc
+
+Make the support addons optionally depend on GatherMate and Gatherer (they stop loading if the appropriate addon isn't found)
+
+------------------------------------------------------------------------
+r32 | lokicoyote | 2008-12-17 19:57:39 +0000 (Wed, 17 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Supports/Gatherer/Core.lua
+
+GatherApi expects the zone to be an integer, not the zone token
+
+------------------------------------------------------------------------
+r30 | lokicoyote | 2008-12-16 04:30:14 +0000 (Tue, 16 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Fixed a typo in the broadcast function
+
+------------------------------------------------------------------------
+r28 | lokicoyote | 2008-12-16 00:32:20 +0000 (Tue, 16 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   D /trunk/Modules/GatherMate
+   D /trunk/Modules/Gatherer
+   A /trunk/Supports/GatherMate
+   A /trunk/Supports/GatherMate/Core.lua (from /trunk/Modules/GatherMate/Core.lua:25)
+   A /trunk/Supports/GatherMate/GatherTogether_GatherMateSupport.toc (from /trunk/Modules/GatherMate/GatherTogether_GatherMateSupport.toc:24)
+   A /trunk/Supports/Gatherer
+   A /trunk/Supports/Gatherer/Core.lua (from /trunk/Modules/Gatherer/Core.lua:25)
+   A /trunk/Supports/Gatherer/GatherTogether_GathererSupport.toc (from /trunk/Modules/Gatherer/GatherTogether_GathererSupport.toc:24)
+
+Move support modules to a common subdirectory
+
+------------------------------------------------------------------------
+r27 | lokicoyote | 2008-12-16 00:26:05 +0000 (Tue, 16 Dec 2008) | 2 lines
+Changed paths:
+   A /trunk/Supports
+
+Prepare to move Support modules to a common subdirectory
+
+------------------------------------------------------------------------
+r26 | lokicoyote | 2008-12-16 00:24:49 +0000 (Tue, 16 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Bridge.lua
+   M /trunk/Support.lua
+
+Call SetDefaultModulePrototype inline instead of in OnInitialize
+
+------------------------------------------------------------------------
+r25 | lokicoyote | 2008-12-15 23:53:29 +0000 (Mon, 15 Dec 2008) | 3 lines
+Changed paths:
+   A /trunk/Bridge.lua (from /trunk/BridgePrototype.lua:24)
+   D /trunk/BridgePrototype.lua
+   M /trunk/Bridges/GatherMate.lua
+   M /trunk/Bridges/GatherTogether.lua
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Core.lua
+   M /trunk/GatherTogether.toc
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   M /trunk/Modules/Options/Core.lua
+   A /trunk/Support.lua (from /trunk/SupportPrototype.lua:24)
+   D /trunk/SupportPrototype.lua
+
+Added Support and Bridge modules (all bridges and support modules are modules of these now)
+Use OnModuleCreated to set module dependent values and to set an addon variable
+
+------------------------------------------------------------------------
+r24 | lokicoyote | 2008-12-15 23:08:48 +0000 (Mon, 15 Dec 2008) | 9 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/Modules/Options/Core.lua
+   D /trunk/Modules/Options/Libs
+
+Added missing functions Get/Set BroadcastTarget
+GetBroadcastPriority and GetBlacklist now return strings with "\n" separators
+Fixed a typo in the Feedback module
+Use Enable/Disable to toggle module and addon state
+Move blacklist options to a single view (not tabs)
+Set steps on range options
+Fixed the check for mod.GetOptions
+Correctly use the return value of next()
+
+------------------------------------------------------------------------
+r23 | lokicoyote | 2008-12-15 23:04:42 +0000 (Mon, 15 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Locales/enUS.lua
+
+Fixed a missing '='
+Added missing entries
+
+------------------------------------------------------------------------
+r22 | lokicoyote | 2008-12-15 19:39:02 +0000 (Mon, 15 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Core.lua
+   M /trunk/Libs
+   M /trunk/Locales/enUS.lua
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/Modules/Modules.xml
+   M /trunk/Modules/Options/Core.lua
+   M /trunk/Modules/Options/Libs
+   D /trunk/Modules/Options/embeds.xml
+   M /trunk/TODO.txt
+   M /trunk/embeds.xml
+
+Added initial options module
+
+------------------------------------------------------------------------
+r21 | lokicoyote | 2008-12-12 21:28:37 +0000 (Fri, 12 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Allow coordinates to be in [-1,2) range instead of just [0,1)
+
+------------------------------------------------------------------------
+r20 | lokicoyote | 2008-12-12 21:27:59 +0000 (Fri, 12 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/Gatherer.lua
+
+Correct a Gatherer zone name
+
+------------------------------------------------------------------------
+r19 | lokicoyote | 2008-12-12 07:28:50 +0000 (Fri, 12 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Fixed some metatables that where inappropriately set up
+
+------------------------------------------------------------------------
+r18 | lokicoyote | 2008-12-12 02:10:02 +0000 (Fri, 12 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/BridgePrototype.lua
+   M /trunk/Bridges/GatherMate.lua
+   A /trunk/Bridges/GatherTogether.lua (from /trunk/Bridges/GatherMate.lua:6)
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Core.lua
+   M /trunk/Modules/Feedback/Core.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   M /trunk/Nodes.lua
+   M /trunk/SupportPrototype.lua
+   M /trunk/Zones.lua
+
+Added error checking
+Changed Print usage to pass arguments instead of concatenated strings
+
+------------------------------------------------------------------------
+r17 | lokicoyote | 2008-12-11 23:05:11 +0000 (Thu, 11 Dec 2008) | 2 lines
+Changed paths:
+   A /trunk/Modules/Options/Core.lua
+   A /trunk/Modules/Options/embeds.xml (from /trunk/embeds.xml:4)
+
+Iniital options module
+
+------------------------------------------------------------------------
+r16 | lokicoyote | 2008-12-10 03:49:28 +0000 (Wed, 10 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/GatherTogether.toc
+   A /trunk/Modules/Feedback
+   A /trunk/Modules/Feedback/Core.lua
+   A /trunk/Modules/Modules.xml (from /trunk/Bridges/Bridges.xml:4)
+
+Add a feedback module that just prints out who did what
+
+------------------------------------------------------------------------
+r15 | lokicoyote | 2008-12-10 03:45:19 +0000 (Wed, 10 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Bridges/GatherMate.lua
+   M /trunk/Bridges/Gatherer.lua
+
+Simplify debug messages
+
+------------------------------------------------------------------------
+r14 | lokicoyote | 2008-12-10 03:44:21 +0000 (Wed, 10 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/BridgePrototype.lua
+   M /trunk/Core.lua
+   M /trunk/SupportPrototype.lua
+
+Make ComputeNodeKey an addon function
+
+------------------------------------------------------------------------
+r13 | lokicoyote | 2008-12-10 03:42:18 +0000 (Wed, 10 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Modules/GatherMate/Core.lua
+
+Use GatherMate tables to translate strings to ids
+
+------------------------------------------------------------------------
+r12 | lokicoyote | 2008-12-07 18:20:51 +0000 (Sun, 07 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+
+Use options for determining the length of the duplicate window and queue length
+
+------------------------------------------------------------------------
+r11 | lokicoyote | 2008-12-07 18:20:05 +0000 (Sun, 07 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Utils/Gatherer.lua
+
+Duplicate GetZoneContinent to avoid referencing the actual init function
+
+------------------------------------------------------------------------
+r10 | lokicoyote | 2008-12-07 15:06:14 +0000 (Sun, 07 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/Nodes.lua
+   M /trunk/TODO.txt
+   M /trunk/Utils/GatherMate.lua
+   M /trunk/Utils/Gatherer.lua
+   M /trunk/Zones.lua
+
+Separate initialization functions (so they can be gc'd)
+
+------------------------------------------------------------------------
+r9 | lokicoyote | 2008-12-07 14:32:37 +0000 (Sun, 07 Dec 2008) | 2 lines
+Changed paths:
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   M /trunk/SupportPrototype.lua
+   M /trunk/Utils/Gatherer.lua
+
+Remove references to owning addon from modules (all functions are referenced through the prototype now)
+
+------------------------------------------------------------------------
+r8 | lokicoyote | 2008-12-07 14:26:02 +0000 (Sun, 07 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Core.lua
+   M /trunk/GatherTogether.toc
+   M /trunk/Modules/GatherMate/Core.lua
+
+Actually include SupportPrototype in the TOC
+Use GatherMate tables to translate localized strings from GatherMate to IDs
+
+------------------------------------------------------------------------
+r7 | lokicoyote | 2008-12-07 13:39:56 +0000 (Sun, 07 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   A /trunk/SupportPrototype.lua
+
+Added a prototype for support modules similar to bridges
+Use entries added by the support module prototype
+
+------------------------------------------------------------------------
+r6 | lokicoyote | 2008-12-07 13:31:24 +0000 (Sun, 07 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/BridgePrototype.lua
+   M /trunk/Bridges/GatherMate.lua
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+
+Fix bridge prototype
+Added simpler NewBridgeModule and GetBridgeModule (ensures proper naming too)
+
+------------------------------------------------------------------------
+r5 | lokicoyote | 2008-12-07 12:49:27 +0000 (Sun, 07 Dec 2008) | 3 lines
+Changed paths:
+   M /trunk/Core.lua
+   A /trunk/TODO.txt
+
+Added TODO list
+Added check for recent updates
+
+------------------------------------------------------------------------
+r4 | lokicoyote | 2008-12-06 23:15:17 +0000 (Sat, 06 Dec 2008) | 6 lines
+Changed paths:
+   M /trunk/BridgePrototype.lua
+   M /trunk/Bridges/GatherMate.lua
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Core.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   M /trunk/Nodes.lua
+   M /trunk/Utils/GatherMate.lua
+   M /trunk/Utils/Gatherer.lua
+   M /trunk/Zones.lua
+
+Lots of function naming cleanup
+Each bridge gets its own metatable
+Moved GatherMate localized name conversion to the support module
+BeginProcessing now takes an identifier which is stored in var.processing and checked by IsProcessing
+(many other changes =/)
+
+------------------------------------------------------------------------
+r3 | lokicoyote | 2008-12-06 02:16:31 +0000 (Sat, 06 Dec 2008) | 11 lines
+Changed paths:
+   M /trunk/BridgePrototype.lua
+   M /trunk/Bridges/GatherMate.lua
+   M /trunk/Bridges/Gatherer.lua
+   M /trunk/Core.lua
+   M /trunk/Modules/GatherMate/Core.lua
+   M /trunk/Modules/Gatherer/Core.lua
+   M /trunk/Nodes.lua
+   M /trunk/Utils/GatherMate.lua
+   M /trunk/Utils/Gatherer.lua
+   M /trunk/Zones.lua
+
+Cache a few globals
+Fixed a number of typos
+Added tests for unknown zones and nodes
+Fixed the meaning of GetGatherMateNodeType (was reversed)
+Store the bridge prototype in a top level variable (not .var.prototype)
+Use AceConsole-3.0 as a mixin for modules
+Added missing Wildvine
+Ensure that defaults actually gets defined
+Changed CrystalSongForest to CrystalsongForest
+Changed Thousandneedles to ThousandNeedles
+
+------------------------------------------------------------------------
+r2 | lokicoyote | 2008-12-05 23:53:35 +0000 (Fri, 05 Dec 2008) | 2 lines
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/BridgePrototype.lua
+   A /trunk/Bridges
+   A /trunk/Bridges/Bridges.xml
+   A /trunk/Bridges/GatherMate.lua
+   A /trunk/Bridges/Gatherer.lua
+   A /trunk/Core.lua
+   A /trunk/GatherTogether.toc
+   A /trunk/LibStub.lua
+   A /trunk/Libs
+   A /trunk/Locales
+   A /trunk/Locales/Locales.xml
+   A /trunk/Locales/enUS.lua
+   A /trunk/Modules
+   A /trunk/Modules/GatherMate
+   A /trunk/Modules/GatherMate/Core.lua
+   A /trunk/Modules/GatherMate/GatherTogether_GatherMateSupport.toc
+   A /trunk/Modules/Gatherer
+   A /trunk/Modules/Gatherer/Core.lua
+   A /trunk/Modules/Gatherer/GatherTogether_GathererSupport.toc
+   A /trunk/Modules/Options
+   A /trunk/Modules/Options/Libs
+   A /trunk/Nodes.lua
+   A /trunk/Utils
+   A /trunk/Utils/GatherMate.lua
+   A /trunk/Utils/Gatherer.lua
+   A /trunk/Utils/Utils.xml
+   A /trunk/Zones.lua
+   A /trunk/embeds.xml
+
+Initial commit based on proof-of-concept GatherMate_SharingGatherer
+
+------------------------------------------------------------------------
+r1 | root | 2008-12-04 00:52:38 +0000 (Thu, 04 Dec 2008) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"gather-together/mainline: Initial Import"
+------------------------------------------------------------------------

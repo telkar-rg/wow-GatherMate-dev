@@ -1,0 +1,27 @@
+## Title: GatherTogether_GathererSupport
+## X-Curse-Packaged-Version: r0.5.1
+## X-Curse-Project-Name: GatherTogether
+## X-Curse-Project-ID: gather-together
+## X-Curse-Repository-ID: wow/gather-together/mainline
+
+## Notes: GatherTogether Gatherer support
+
+## Author: LokiCoyote
+## X-Author-Faction: Horde
+## X-Author-Server: Stormreaver
+
+## Interface: 30000
+## Version: r0.5.1
+## X-Date: 2008-12-23T21:30:08Z
+
+## X-Credits: kagaro, Xinhuan
+
+## X-Category: Map
+## X-Localizations: enUS
+## X-Website:
+## X-Feedback:
+
+## Dependencies: GatherTogether
+## OptionalDeps: Ace3, Gatherer
+
+Core.lua
