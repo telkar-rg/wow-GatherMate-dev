@@ -12,7 +12,7 @@ The RG DB only provides 3 significant digits of precision for object coordinates
 The Bloodmyst Isle seems to have basically *no nodes* according to the RG DB. I am not sure if that is accurate or an error in the DB.
 
 ## Files
-- [GatherMate_Data for RG](https://github.com/telkar-rg/wow-GatherMate-dev/releases/tag/r1)
+- [GatherMate_Data for RG](https://github.com/telkar-rg/wow-GatherMate-dev/releases/tag/r1-3.1)
 
 - [Addons for Tracking/Sharing nodes](https://github.com/telkar-rg/wow-GatherMate-dev/releases/tag/r0)
   - GatherMate v1.2.5
