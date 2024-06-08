@@ -9141,6 +9141,12 @@ GatherMateDataMineDB = 	{
 		[65305380] = 204,
 	},
 
+	[51] = { -- BloodmystIsle
+		[57937601] = 201, -- Copper Vein
+		[52008562] = 201,
+		[64888537] = 201,
+	},
+
 	[52] = -- WesternPlaguelands
 	{
 		[47207970] = 205, -- Gold Vein
